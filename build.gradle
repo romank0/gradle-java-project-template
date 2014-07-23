@@ -10,3 +10,7 @@ dependencies {
     // add dependencies here, e.g.:
     // compile 'com.google.inject:guice:3.0'
 }
+
+task wrapper(type: Wrapper) {
+    gradleVersion = '2.0'
+}
